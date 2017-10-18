@@ -42,7 +42,7 @@ public class Salary
            NumberFormat money = NumberFormat.getCurrencyInstance();
            System.out.println();
            System.out.println("Current Salary:           " + money.format(currentSalary));
-           System.out.println("Amount of your raise: " + money.format(raise));
+           System.out.println("Amount of your raise:     " + money.format(raise));
            System.out.println("Your new salary:          " + money.format(newSalary));
            System.out.println();
         }
