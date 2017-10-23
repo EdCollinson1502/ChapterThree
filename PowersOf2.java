@@ -25,12 +25,7 @@ public class PowersOf2
  
             for(int i = 0; i < numPowersOf2; i++)
             {
-                System.out.println(2^ numPowersOf2);
- 
-                //find next power of 2 -- how do you get this from the last one?
- 
-                //increment exponent
- 
+                System.out.println("2^" + i + " =\t"  + (Math.pow( 2,  i)));                
             }
         }
 }
